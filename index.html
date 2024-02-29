@@ -10,68 +10,187 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./style/style.css" />
+    <link
+      rel="shortcut icon"
+      type="image/gif"
+      href="./src/images/ricardoICON(A).gif"
+    />
     <title>lawyers</title>
   </head>
   <body>
     <header>
-      <section class="header">
-        <div class="container">
-          <img src="./src/images/bluePhone.svg" alt="телефон" />
-          <a href="tel:+79220229482">+7(922)022-94-82</a>
-          <img src="./src/images/blueMAIL.svg" alt="почта" />
-          <a href="email:janis62@yahoo.com">janis62@yahoo.com</a>
-          <button class="">Заказать звонок</button>
-        </div>        
-        <div class="header__head">
-          <div class="container">
-            <h1>
-              <span class="blue">ПРАВОЗАЩИТНИК</span><br />юридическая компания
-            </h1>
-            <nav>
-              <ul>
-                <li>Услуги</li>
-                <li>О компании</li>
-                <li>Наши юристы</li>
-                <li>Отзывы</li>
-                <li>Новости</li>
-                <li>Контакты</li>
-              </ul>
-            </nav>
+      <div class="container">
+        <address class="header__conta">
+          <div class="header__onfo">
+            <img
+              class="header__incon"
+              src="./src/images/icons/bluePhone.svg"
+              alt="телефон"
+            />
+            <a class="header__tel" href="tel:+79220229482">+7(922)022-94-82</a>
+            <img
+              class="header__incon"
+              src="./src/images/icons/blueMAIL.svg"
+              alt="почта"
+            />
+            <a class="header__email" href="mailto:janis62@yahoo.com"
+              >janis62@yahoo.com</a
+            >
           </div>
-        </section>
+          <button class="header__call">Заказать звонок</button>
+        </address>
+        <div class="header__bar">
+          <h1 class="header__tltle">
+            <span class="header__name">ПРАВОЗАЩИТНИК</span>
+            Юридическая компания
+          </h1>
+          <nav class="header__nav">
+            <ul class="header__list">
+              <li class="header__item">
+                <a href="#services" class="header__link">Услуги</a>
+              </li>
+              <li class="header__item">
+                <a href="#services" class="header__link">О компании</a>
+              </li>
+              <li class="header__item">
+                <a href="#services" class="header__link">Наши юристы</a>
+              </li>
+              <li class="header__item">
+                <a href="#services" class="header__link">Отзывы</a>
+              </li>
+              <li class="header__item">
+                <a href="#services" class="header__link">Новости</a>
+              </li>
+              <li class="header__item">
+                <a href="#services" class="header__link">Контакты</a>
+              </li>
+            </ul>
+          </nav>
         </div>
-        <section class="hero container">
-          <div class="hero__content">
-            <p class="hero__serv">Оказываем весь спектр</p>
-            <p class="blue hero__title">Юридических услуг</p>
-            <p class="hero__text">
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="container">
+          <div class="hero__text">
+            <p class="hero__title">Оказываем весь комплекс</p>
+            <h2 class="hero__title_blue">Юридических услуг</h2>
+            <p class="hero__disc">
               Давно выяснено, что при оценке дизайна и композиции читаемый текст
               мешает сосредоточиться. Lorem Ipsum используют потому, что тот
               обеспечивает более или менее стандартное заполнение.
             </p>
-            <button class="header__btn">НАШИ УСЛУГИ</button>
-            <div class="hero__track">
-              <div class="hero__sticks">|||</div>
-              <div class="hero__btn"><</div>
-              <div class="hero__btn">/</div>
-              <div class="hero__btn">></div>
+            <a href="" class="hero__link">Наши услуги</a>
+          </div>
+          <div class="hero__slider">
+            <div class="hero__sticks">
+              <span class="hero__stick hero__stick_select"></span>
+              <span class="hero__stick hero__stick_select"></span>
+              <span class="hero__stick hero__stick_select"></span>
+            </div>
+            <div class="hero__change">
+              <input class="change__arrow" type="button" value="<" />
+              <span class="change__span">/</span>
+              <input class="change__arrow" type="button" value=">" />
             </div>
           </div>
         </div>
       </section>
-<section class="our__servivises">
-    <div class="container">
-        <div class="our__servivises">
-        <h2>Наши услуги</h2>
-        <div class="stick"></div>
-        <p class="our__text">Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют потому, что тот обеспечивает более или менее стандартное заполнение шаблона</p>
-    </div>
-<div class="our__cards"></div>
-</div>
+      <section class="services">
+        <div class="container">
+          <div class="services__text">
+            <p class="services__title">Наши услуги</p>
+            <p class="services__disc">
+              Давно выяснено, что при оценке дизайна и композиции читаемый текст
+              мешает сосредоточиться. Lorem Ipsum используют потому, что тот
+              обеспечивает более или менее стандартное заполнение шаблона
+            </p>
 
-</section>
-    </header>
-    <main></main>
+            <div class="services__cards">
+              <article class="services__item">
+                <img
+                  src="./src/images/icons/blueGALOCHKA.svg"
+                  alt="иконка галочки"
+                  class="item__icon"
+                />
+                <h3 class="item__title">Банкротство физических лиц</h3>
+                <p class="item__disc">
+                  Процедуру банкротства физических лиц в России регулирует закон
+                  «О несостоятельности (банкротстве)».
+                </p>
+                <div class="item__decor">
+                  <span class="item__corn"></span>
+                  <span class="item__corn"></span>
+                  <span class="item__corn"></span>
+                  <span class="item__corn"></span>
+                </div>
+              </article>
+              <article class="services__item">
+                <img
+                  src="./src/images/icons/blueGALOCHKA.svg"
+                  alt="иконка галочки"
+                  class="item__icon"
+                />
+                <h3 class="item__title">Сопровождение сделок</h3>
+                <p class="item__disc">
+                  Инициирование, оформление, осуществление сделки и достижение
+                  результата — это именно то, чем мы занимаемся каждый день.
+                </p>
+              </article>
+              <article class="services__item">
+                <img
+                  src="./src/images/icons/blueGALOCHKA.svg"
+                  alt="иконка галочки"
+                  class="item__icon"
+                />
+                <h3 class="item__title">Корпоративные споры</h3>
+                <p class="item__disc">
+                  Корпоративные споры – споры, связанные с созданием юрлица,
+                  управлением или участием в нем
+                </p>
+              </article>
+              <article class="services__item">
+                <img
+                  src="./src/images/icons/blueGALOCHKA.svg"
+                  alt="иконка галочки"
+                  class="item__icon"
+                />
+                <h3 class="item__title">Недвижимость и строительство</h3>
+                <p class="item__disc">
+                  Консультируем по различным вопросам в области недвижимости,
+                  включая градостроительное регулирование, земельные отношения
+                </p>
+              </article>
+              <article class="services__item">
+                <img
+                  src="./src/images/icons/blueGALOCHKA.svg"
+                  alt="иконка галочки"
+                  class="item__icon"
+                />
+                <h3 class="item__title">Возврат страховых премий</h3>
+                <p class="item__disc">
+                  Для возврата страховой премии нужно подготовить следующий
+                  пакет документов: паспорт страхователя; оригинал страхового
+                  полиса
+                </p>
+              </article>
+              <article class="services__item">
+                <img
+                  src="./src/images/icons/blueGALOCHKA.svg"
+                  alt="иконка галочки"
+                  class="item__icon"
+                />
+                <h3 class="item__title">Налоговое право и споры</h3>
+                <p class="item__disc">
+                  Сопровождение налоговых проверок на любой стадии, анализ и
+                  подготовка документов, защита при налоговых спорах.
+                </p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
     <footer></footer>
   </body>
 </html>
