@@ -17,6 +17,15 @@ button {
 a {
   text-decoration: none;
 }
-.blue__text{
-  color: #4F8FF0;
+.blue__text {
+  color: #4f8ff0;
+}
+.subtitle::after {
+  content: "";
+  border-bottom: solid 3px #4f8ff0;
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50px;
 }
