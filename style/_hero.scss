@@ -1,0 +1,75 @@
+.hero {
+  height: 820px;
+  padding-top: 200px;
+  &__title {
+    font-size: 30px;
+    color: #fff;
+  }
+  &__title_blue {
+    color: #4f8ff0;
+    font-size: 56px;
+  }
+  &__disc {
+    font-size: 20px;
+    color: #fff;
+  }
+  &__link {
+    color: #fff;
+    background-color: #4f8ff0;
+    font-size: 14px;
+    padding: 16px 24px 16px 24px;
+  }
+  &__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 400px;
+  }
+  &__stick {
+    width: 4px;
+    height: 24px;
+    border: solid 2px #fff;
+    cursor: pointer;
+  }
+  &__stick::before {
+    content: "";
+  }
+  &__stick:hover {
+    border-color: #4f8ff0;
+    height: 40px;
+    transition: 0.3s;
+  }
+  &__sticks {
+    display: flex;
+    gap: 8px;
+    align-items: flex-end;
+  }
+  &__slider {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 160px;
+    height: 40px;
+  }
+  &__change {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 8px;
+  }
+}
+.change__arrow {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 32px;
+  cursor: pointer;
+}
+.change__arrow:hover {
+  color: #4f8ff0;
+  transform: scale(1.5);
+}
+.change__span {
+  color: #fff;
+  font-size: 32px;
+}

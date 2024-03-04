@@ -1,0 +1,78 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  &__contacts {
+    height: 52px;
+    background-color: #010101;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__tel {
+    color: #ffffff;
+  }
+  &__email {
+    color: #ffffff;
+  }
+  &__call {
+    color: #4f8ff0;
+    cursor: pointer;
+  }
+  &__flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  }
+  &__info {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+  }
+  &__bar {
+    background-color: rgba(1, 1, 1, 0.76);
+    height: 112px;
+  }
+  &__flexbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 22px;
+  }
+  &__backgr {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0.64) 0%,
+        rgba(34, 34, 34, 0.64) 100%
+      ),
+      url(../src/images/biblioteka.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  &__tltle {
+    font-size: 20px;
+    color: #fff;
+  }
+  &__name {
+    font-size: 28px;
+  }
+  &__link {
+    color: #fff;
+  }
+  &__link:hover {
+    color: #4f8ff0;
+  }
+  &__item:hover {
+    transform: scale(1.05);
+  }
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+  }
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

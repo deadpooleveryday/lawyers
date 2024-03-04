@@ -18,32 +18,35 @@
     <title>lawyers</title>
   </head>
   <body>
-    <header>
-      <div class="container">
-        <address class="header__conta">
-          <div class="header__onfo">
-            <img
+    <header class="header header__backgr">
+    <address class="header__contacts">
+          <div class="container header__flex">
+          <div class="header__info">
+          <div>  <img
               class="header__incon"
               src="./src/images/icons/bluePhone.svg"
               alt="телефон"
             />
-            <a class="header__tel" href="tel:+79220229482">+7(922)022-94-82</a>
-            <img
+            <a class="header__tel" href="tel:+79220229482">+7(922)022-94-82</a></div>
+          <div> <img
               class="header__incon"
               src="./src/images/icons/blueMAIL.svg"
               alt="почта"
             />
             <a class="header__email" href="mailto:janis62@yahoo.com"
               >janis62@yahoo.com</a
-            >
+            ></div>   
           </div>
           <button class="header__call">Заказать звонок</button>
+          </div>
         </address>
         <div class="header__bar">
-          <h1 class="header__tltle">
-            <span class="header__name">ПРАВОЗАЩИТНИК</span>
-            Юридическая компания
-          </h1>
+        <div class="container">
+          <div class="header__flexbar">
+         <div> <h1 class="header__tltle">
+            <span class="header__name blue__text">ПРАВОЗАЩИТНИК</span><br>
+            юридическая компания
+          </h1></div>
           <nav class="header__nav">
             <ul class="header__list">
               <li class="header__item">
@@ -65,10 +68,9 @@
                 <a href="#services" class="header__link">Контакты</a>
               </li>
             </ul>
-          </nav>
+          </nav></div>
         </div>
-      </div>
-    </header>
+      </div>    
     <main>
       <section class="hero">
         <div class="container">
@@ -95,6 +97,7 @@
             </div>
           </div>
         </div>
+        </header>
       </section>
       <section class="services">
         <div class="container">
@@ -217,39 +220,62 @@
           </div>
           <div class="about__buttons">
             <a href="" class="item__link"></a>
-              <a href="" class="item__link item__link_gray"></a>
+            <a href="" class="item__link item__link_gray"></a>
           </div>
         </div>
         <img src="./src/images/books.jpg" alt="книги" class="about__picture" />
       </section>
       <section class="staff">
         <div class="container">
-<div class="staff__text">
-  <h3 class="staff__title">Наши Юристы</h3>
-  <p class="staff__disk"></p>
-</div>
-<div class="staff__hiddenpool">
-  <div class="staff__track">
-    <article class="staff__catd">
-      <div class="staff__front">
-        <img src="" alt="" class="staff__img">
-        <p class="staff__name"></p>
-        <p class="staff__name_title"></p>
-        <p class="staff__pos"></p>
-        <div class="staff__back">
-<span class="staff__corn"></span>
-<span class="staff__corn"></span>
-<span class="staff__corn"></span>
-<span class="staff__corn"></span>
-<p class="staff__name_title"></p>
-<p class="staff__pos"></p>
-<p class="staff__exp"></p>
+          <div class="staff__text">
+            <h3 class="staff__title">Наши Юристы</h3>
+            <p class="staff__disk">
+              Давно выяснено, что при оценке дизайна и композиции читаемый текст
+              мешает сосредоточиться. Lorem Ipsum используют потому, что тот
+              обеспечивает более или менее стандартное заполнение шаблона
+            </p>
+          </div>
+          <div class="staff__hiddenpool">
+            <div class="staff__track">
+              <article class="staff__catd">
+                <div class="staff__front">
+                  <img src="" alt="" class="staff__img" />
+                  <p class="staff__name"></p>
+                  <p class="staff__name_title"></p>
+                  <p class="staff__pos"></p>
+                  <div class="staff__back">
+                    <span class="staff__corn"></span>
+                    <span class="staff__corn"></span>
+                    <span class="staff__corn"></span>
+                    <span class="staff__corn"></span>
+                    <p class="staff__name_title"></p>
+                    <p class="staff__pos"></p>
+                    <p class="staff__exp"></p>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
         </div>
-      </div>
-    </article>
-  </div>
+      </section>
+      <section class="feedback">
+        <div class="container">
+          <p class="feedback__text">Что о нас говорят клиенты</p>
+          <div class="feedback__change">
+            <input class="feedback__arrow" type="button" value="<" />
+            <span class="feedback__span">/</span>
+            <input class="feedback__arrow" type="button" value=">" />
+          </div>
+          <div class="feedback__hiddenpool">
+            <div class="feedback__track">
+              <article class="feedback__catd">      
+             
 </div>
-</div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
     <footer></footer>
