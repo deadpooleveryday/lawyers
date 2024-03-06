@@ -1,6 +1,7 @@
 .header {
   display: flex;
   flex-direction: column;
+
   &__contacts {
     height: 52px;
     background-color: #010101;
@@ -22,6 +23,7 @@
     justify-content: space-between;
     align-items: center;
     height: 100%;
+    width: 100%;
   }
   &__info {
     display: flex;
@@ -37,6 +39,7 @@
     justify-content: space-between;
     align-items: center;
     padding-top: 22px;
+    width: 100%;
   }
   &__backgr {
     background-image: linear-gradient(
@@ -74,5 +77,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+  &__top {
+    width: 100vw;
+    position: fixed;
+    z-index: 99;
   }
 }

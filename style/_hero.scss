@@ -1,6 +1,6 @@
 .hero {
-  height: 820px;
-  padding-top: 200px;
+  margin-top: 200px;
+  height: 100vh;
   &__title {
     font-size: 30px;
     color: #fff;
@@ -21,6 +21,12 @@
     padding: 16px 24px 16px 24px;
     margin-top: 100px;
     width: 140px;
+    border: #4f8ff0 2px solid;
+  }
+  &__link:hover {
+    color: #4f8ff0;
+    background-color: #fff;
+    border: #4f8ff0 2px solid;
   }
   &__text {
     display: flex;
@@ -61,7 +67,9 @@
     gap: 8px;
   }
   &__alls {
-    margin-top: 60px;
+    margin: 0 auto;
+    margin-bottom: 90px;
+    margin-top: 10px;
     display: flex;
     justify-content: center;
     align-items: center;

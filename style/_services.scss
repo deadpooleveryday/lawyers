@@ -19,7 +19,6 @@
     margin-bottom: 50px;
   }
   &__item {
-    width: 424px;
     height: 250px;
     display: flex;
     flex-direction: column;
@@ -28,21 +27,33 @@
     background-color: #fff;
     cursor: pointer;
     gap: 10px;
+    padding: 10px;
+
+    transition: 0.3s;
   }
   &__item:hover {
     background-color: #4f8ff0;
     color: #fff;
   }
+
   &__cards {
     display: grid;
     grid-template-rows: repeat(2, 270px);
-    grid-template-columns: repeat(3, 454px);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
   }
 }
 .item {
   &__icon {
-    display: flex;
-    justify-content: center;
+    background-image: url(../src/images/icons/blueGALOCHKA.svg);
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+  }
+  &__icon:hover {
+    background-image: url(../src/images/icons/whiteGALOCHKA.svg);
+    transition: 0.3s;
+    // сука чекни селекторы потомков или дочерние если не получится
   }
   &__title {
     font-size: 20px;
