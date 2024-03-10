@@ -5,6 +5,7 @@
     flex-direction: column;
     margin: 0 auto;
     padding-top: 80px;
+    transition: 0.3s;
   }
   &__title {
     font-size: 28px;
@@ -33,9 +34,12 @@
   &__item:hover {
     background-color: #4f8ff0;
     color: #fff;
+    scale: (1.02);
+    transition: 0.3s;
   }
   &__item:hover .item__icon {
     background-image: url(../src/images/icons/whiteGALOCHKA.svg);
+    transition: 0.3s;
   }
   &__cards {
     display: grid;
@@ -50,6 +54,7 @@
     background-repeat: no-repeat;
     width: 32px;
     height: 32px;
+    transition: 0.3s;
   }
 
   &__title {
