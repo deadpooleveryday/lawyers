@@ -9,6 +9,7 @@
   width: 80vw;
   max-width: 1320px;
   margin: 0 auto;
+  padding: 30px;
 }
 button {
   background: none;
@@ -28,4 +29,7 @@ a {
   left: 50%;
   transform: translateX(-50%);
   width: 50px;
+}
+.subtitle_left::after {
+  left: 3.7%;
 }

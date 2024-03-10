@@ -1,0 +1,74 @@
+.staff {
+  text-align: center;
+  background-color: #f7f7f7;
+  height: 740px;
+  &__title {
+    font-size: 28px;
+    position: relative;
+    padding-top: 80px;
+  }
+  &__disk {
+    font-size: 16px;
+    padding-top: 32px;
+  }
+  &__card {
+    cursor: pointer;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    height: 420px;
+    width: 312px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  &__track {
+    margin-top: 50px;
+    display: flex;
+    gap: 24px;
+    overflow: hidden;
+    height: 100%;
+    max-height: 440px;
+  }
+  &__name {
+    font-size: 16px;
+    font-weight: bolder;
+  }
+  &__name_title {
+    display: none;
+  }
+  &__pos {
+    font-size: 14px;
+  }
+  &__exp {
+    display: none;
+    font-weight: bolder;
+  }
+  &__back {
+    background-color: #f7f7f7;
+    display: none;
+    flex-direction: column;
+    height: 100%;
+    max-height: 420px;
+    width: 312px;
+    padding-top: 30px;
+  }
+  &__card:hover {
+    justify-content: space-around;
+  }
+  &__card:hover &__name_title {
+    display: block;
+  }
+  &__card:hover &__img {
+    display: none;
+  }
+  &__card:hover &__name {
+    display: block;
+  }
+  &__card:hover &__exp {
+    display: block;
+  }
+  &__card:hover &__back {
+    display: flex;
+  }
+}

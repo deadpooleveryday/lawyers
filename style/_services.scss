@@ -28,15 +28,15 @@
     cursor: pointer;
     gap: 10px;
     padding: 10px;
-  transition: 0.3s;
+    transition: 0.3s;
   }
   &__item:hover {
     background-color: #4f8ff0;
     color: #fff;
   }
-&__item:hover .item__icon{
-  background-image: url(../src/images/icons/whiteGALOCHKA.svg);
-}
+  &__item:hover .item__icon {
+    background-image: url(../src/images/icons/whiteGALOCHKA.svg);
+  }
   &__cards {
     display: grid;
     grid-template-rows: repeat(2, 270px);
@@ -51,11 +51,7 @@
     width: 32px;
     height: 32px;
   }
-  &__icon:hover {
-    background-image: url(../src/images/icons/whiteGALOCHKA.svg);
-    transition: 0.3s;
-    // сука чекни селекторы потомков или дочерние если не получится
-  }
+
   &__title {
     font-size: 20px;
     text-align: center;
